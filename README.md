@@ -1,5 +1,5 @@
 # algebra2solved
-Converts an image of a simple algebra number sentence to its result.
+Converts an image of a simple algebra number sentence to its result using Tessecact.js and Algebra.js.
 
 # Example
 ```
