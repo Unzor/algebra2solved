@@ -18,7 +18,7 @@ return eval(parsed.solveFor("x").toString())
 
 const fs = require("fs");
 
-var file = "data:image/png;base64," + fs.readFileSync('image.png', 'base64');
+var file = "data:image/png;base64," + fs.readFileSync(process.argv[2], 'base64');
 
 var Tesseract  = require('tesseract.js');
 
